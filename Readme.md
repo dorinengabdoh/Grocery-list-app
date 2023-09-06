@@ -1,3 +1,4 @@
+<!--deno-lint-ignore-file  -->
 # Grocery-app
 This little javascript project is about grocery list with three options `add`, `edit` and `delete`.
 ## Fonctionality
