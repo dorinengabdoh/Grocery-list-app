@@ -10,7 +10,7 @@ This little javascript project is about grocery list with three options `add`, `
 
 ## Installation
 - Clone this repository on your machine.
-- Access the project directory in your terminal.
+<!-- - Access the project directory in your terminal. -->
 - Install the dependencies by running the npm install command.
 
 ## usage
