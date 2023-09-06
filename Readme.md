@@ -16,3 +16,5 @@ This little javascript project is about grocery list with three options `add`, `
 ## usage
 - can be used for store.
 
+## an Image
+![alt text](./assets/images/Screenshot%20from%202023-09-06%2011-10-51.png).

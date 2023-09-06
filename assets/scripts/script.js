@@ -12,7 +12,6 @@ document.querySelector(".btn").addEventListener('click', (e) =>{
 function clear(){
   document.querySelector(".ajout").value="";
 }
-
 // --------------------add-----------------
 document.querySelector('.add').addEventListener('click', (e) =>{
   e.preventDefault();
