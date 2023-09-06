@@ -27,22 +27,6 @@ document.querySelector('.add').addEventListener('click', (e) => {
   // selectRow = null
 })
 
-document.querySelector('.update').addEventListener('click', (e) => {
-  e.preventDefault()
-  // get value
-  const ajouter = document.querySelector('.ajout').value
-  // validate
-  // if(selectedRow == null) {
-  const list = document.querySelector('.btn')
-  const row = document.createElement('tr')
-  row.innerHTML = ` <td>${ajouter}</td>
-                        <td>
-                        <a href="#" class="edit">Edit</a>
-                        <a href="#" class="delete">Delete</a>
-                      `
-  list.appendChild(row)
-  // selectRow = null
-})
 // // -----------------------edit-----------------------------------
 
 document.querySelector('.edit').addEventListener('click', (e) => {
