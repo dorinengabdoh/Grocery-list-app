@@ -1,6 +1,10 @@
 'use strict'
-let selectedRow = ''
+const selectedRow = ''
 const selectRow = null; //eslint-disable-line
+const input = document.querySelector('.ajout')
+const row = document.querySelector('.btn')
+// const add = document.querySelector('.add')
+
 let target = ''
 // ---------------------delete data----------------------
 document.querySelector('.btn').addEventListener('click', (e) => {
@@ -32,7 +36,7 @@ document.querySelector('.add').addEventListener('click', (e) => {
 document.querySelector('.edit').addEventListener('click', (e) => {
   target = e.target
   if (target.classList.contains('edit')) {
-    selectedRow = target.parentElement.parentElement
-    document.querySelector('.ajouter').value = selectedRow.children.textcontent
+    input.type = row.firstElementChild(row)
+    document.querySelector('.ajouter').value = selectedRow.textContent
   }
 })
