@@ -1,6 +1,6 @@
 <!--deno-lint-ignore-file  -->
 # Grocery-app
-This little javaScript project is about grocery list with three options `add`, `edit` and `delete`.
+This little project is about grocery list with three options `add`, `edit` and `delete`.
 ## FonctionalityA
 - you can add object on your list when you type your objet and press `add` ;
 - press on `edit` when you want to change the name   of the article that you had alredy add.
